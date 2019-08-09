@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/found/found",
+    "pages/classroom/classroom",
+    "pages/mine/mine",
+    "pages/jion/jion",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小智教育",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#66CCCC",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "发现",
+      "iconPath": "images/tabBar_001.png",
+      "selectedIconPath": "images/tabBar_001.png"
+    },
+    {
+      "pagePath": "pages/classroom/classroom",
+      "text": "讲堂",
+      "iconPath": "images/tabBar_002.png",
+      "selectedIconPath": "images/tabBar_002.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "images/tabBar_003.png",
+      "selectedIconPath": "images/tabBar_003.png"
+    }]
+  }
+}

@@ -1,0 +1,90 @@
+<!--index.wxml-->
+        <scroll-view scroll-x="true">
+        <view class="uploadWrap" scroll-x="true" indicator-dots="true">
+          <view class="upload_Item">
+            <image class="upload_Item_img"  src="../../images/scroll-view-01.png"></image>
+          </view>
+          <view class="upload_Item">
+            <image class="upload_Item_img"  src="../../images/scroll-view-02.png"></image>
+          </view>
+          <view class="upload_Item">
+            <image class="upload_Item_img"  src="../../images/scroll-view-03.png"></image>
+          </view>
+          <view class="upload_Item">
+            <image class="upload_Item_img"  src="../../images/scroll-view-04.png"></image>
+          </view>
+        </view>
+      </scroll-view>
+      <scroll-view scroll-x="true">
+          <view class="uploadWrap" scroll-x="true" >
+            <view class="upload_Item" wx:for="{{imgUrls}}" wx:key="id">
+              <image class="upload_Item_img" src="{{item.imgurl}}"data-id="{{item.id}}" bindtap="changeMainImgFn2"></image>
+              <icon type="clear" size="16" class="upload_Btn" color="#f64400"></icon>
+              <view class="upload_mask {{upload_ImgSelId2==item.id? 'show':' ' }}">主图</view>
+            </view>
+          </view>
+        </scroll-view>
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class='items-list'>
+<view class='pro-item' >
+<image class='pro-logo' src='/images/logo-01.png'></image>
+<view class='pro-body'>
+<view class='pro-title'>Python-学习算法/人工智能/大数据的第一步</view>
+<view class='pro-text'>这是一门能让你看得懂、学得会的Python基础课</view>
+<view class='pro-money'>￥175</view>
+<view class='pro-footer'>
+<image class="btn-buy" src='/images/btn-detail-02.png'></image>
+     </view>
+    </view>
+  </view>
+</view>
+<view class='items-list'>
+<view class='pro-item'>
+<image class='pro-logo' src='/images/logo-02.png'></image>
+<view class='pro-body'>
+<view class='pro-title'>MySQL面试指南</view>
+<view class='pro-text'>9大类常见问题详解，切实提升数据库应用和管理能力，升职加薪必备佳品,还在等什么，赶快行动吧</view>
+<view class='pro-money'>￥255</view>
+<view class='pro-footer'>
+<image class="btn-buy" src='/images/btn-detail-02.png'></image>
+     </view>
+    </view>
+  </view>
+</view>
+<view class='swiper-02'>
+<image class='swiper-02' src='/images/swiper-02.png'></image>
+</view>
+<view class='items-list'>
+<view class='pro-item'>
+<image class='pro-logo' src='/images/logo-03.png'></image>
+<view class='pro-body'>
+<view class='pro-title'>Go语言开发分布式任务调度 轻松搞定高性能Crontab</view>
+<view class='pro-text'>分布式系统设计+高并发细节处理，一次性让你晋级到位</view>
+<view class='pro-money'>￥325</view>
+<view class='pro-footer'>
+<image class="btn-buy" src='/images/btn-detail-02.png'></image>
+     </view>
+    </view>
+  </view>
+</view>
+<view class='items-list'>
+<view class='pro-item'>
+<image class='pro-logo' src='/images/logo-04.png'></image>
+<view class='pro-body'>
+<view class='pro-title'>最新技术栈java接口测试实战</view>
+<view class='pro-text'>使用当前最新版本Postman、Junit5、RestAssured,从入门到精通实战演练</view>
+<view class='pro-money'>￥455</view>
+<view class='pro-footer'>
+<image class="btn-buy" src='/images/btn-detail-02.png'></image>
+     </view>
+    </view>
+  </view>
+</view>
+<button bindtap='copy'>复制内容</button>

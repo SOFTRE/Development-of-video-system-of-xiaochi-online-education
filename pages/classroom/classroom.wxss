@@ -1,0 +1,45 @@
+/* pages/classroom/classroom.wxss */
+.pro-text1{
+  font-size: 43rpx;
+  color: #33CCCC;
+  margin-left: 100rpx;
+}
+.class-01{
+  float: left;
+  width: 300rpx;
+  height: 250rpx;
+  padding: 30rpx;
+  margin-left: 15rpx;
+}
+.class-02{
+  float: left;
+  width: 300rpx;
+  height: 250rpx;
+  padding: 30rpx;
+}
+.pro-item{
+  overflow: hidden;
+  padding: 20rpx;
+}
+.pro-01{
+  float: left;
+  margin-left: 10rpx;
+}
+.pro-02{
+  float: left;
+  margin-left: 65rpx;
+}
+.pro-title{
+  color: #000033;
+  font-size:34rpx;
+  line-height: 1; 
+}
+.pro-text{
+  font-size: 28rpx;
+  color: rgb(187, 187, 192);
+  line-height: 1.2;
+}.pro-money{
+  font-size: 30rpx;
+  color:#FF0033;
+  line-height: 1.2;
+}

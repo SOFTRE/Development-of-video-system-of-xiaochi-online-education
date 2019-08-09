@@ -1,0 +1,43 @@
+<!--pages/classroom/classroom.wxml-->
+<text class='pro-text1'>订阅专栏 视频课堂 精品课堂</text>
+<view class='class-one'>
+<image class='class-01' src='/images/class-01.png'></image>
+<image class='class-02' src='/images/class-03.png'></image>
+</view>
+
+<view class='pro-item' >
+<view class='pro-01'>
+<view class='pro-title'>Android零基础入门</view>
+<view class='pro-title'>（小白)</view>
+<view class='pro-text'>4步·19门课·5193人在学</view>
+<view class='pro-money'>￥499</view>
+    </view>
+<view class='pro-02'>
+<view class='pro-title'>PHP零基础入门</view>
+<view class='pro-title'>（小白)</view>
+<view class='pro-text'>4步·19门课·4405人在学</view>
+<view class='pro-money'>￥550</view>
+    </view>
+  </view>
+
+
+<view class='class-two'>
+<image class='class-01' src='/images/class-02.png'></image>
+<image class='class-02' src='/images/class-04.png'></image>
+</view>
+
+
+<view class='pro-item' >
+<view class='pro-01'>
+<view class='pro-title'>Android数据通信开</view>
+<view class='pro-title'>发与应用</view>
+<view class='pro-text'>4步·21门课·3309人在学</view>
+<view class='pro-money'>￥886</view>
+    </view>
+<view class='pro-02'>
+<view class='pro-title'>PHP典型功能与</view>
+<view class='pro-title'>Laravel5框架开发</view>
+<view class='pro-text'>4步·19门课·2210人在学</view>
+<view class='pro-money'>￥750</view>
+    </view>
+  </view>

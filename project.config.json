@@ -1,0 +1,66 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.0",
+	"appid": "wxfe2bb6ba0e442910",
+	"projectname": "%E5%B0%8F%E6%99%BA%E5%9C%A8%E7%BA%BF%E6%95%99%E8%82%B2%E8%A7%86%E9%A2%91%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%BC%80%E5%8F%91",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "logs",
+					"pathName": "pages/logs/logs",
+					"query": "name=aaa",
+					"scene": "1011"
+				},
+				{
+					"id": 1,
+					"name": "jion",
+					"pathName": "pages/jion/jion",
+					"query": "name=aaa",
+					"scene": "1011"
+				},
+				{
+					"id": -1,
+					"name": "found",
+					"pathName": "pages/found/found",
+					"query": "name=aaa",
+					"scene": "1011"
+				}
+			]
+		}
+	}
+}

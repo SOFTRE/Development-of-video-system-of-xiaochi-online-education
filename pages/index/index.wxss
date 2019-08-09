@@ -1,0 +1,68 @@
+/**index.wxss**/
+
+.uploadWrap{
+  height:160rpx;
+  width:100%;
+  display: flex;
+  display: -webkit-box;
+  flex-direction: column;
+  }
+.upload_Item{ width: 160rpx;
+  height: 160rpx;
+  flex: 1;
+  }
+.upload_Item_img{
+   width: 160rpx;
+   height: 160rpx;
+   }
+swiper{
+  width: 100%;
+  height: 120rpx;
+}
+swiper image{
+display: block;
+width: 100%;
+height: 100%;
+}
+.items-list{
+}
+.pro-item{
+  overflow: hidden;
+  padding: 30rpx;
+}
+.pro-logo{
+  float: left;
+  width: 250rpx;
+  height: 250rpx;
+}
+.pro-body{
+  margin-left: 200rpx;
+}
+.pro-title{
+  color: #000033;
+  font-size:34rpx;
+  line-height: 1; 
+}
+.pro-text{
+  font-size: 28rpx;
+  color: rgb(187, 187, 192);
+  line-height: 1.2;
+}.pro-money{
+  font-size: 34rpx;
+  color:#FF0033;
+  line-height: 1.2;
+}
+.pro-footer{
+  overflow: hidden;
+}
+.btn-buy{
+  float: left;
+  width: 376rpx;
+  height: 83rpx;
+  margin-left: 40rpx;
+}
+
+.swiper-02{
+   width: 100%;
+  height: 120rpx;
+}
